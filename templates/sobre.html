@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+  <body>
+    <h2>Todos</h2>
+    <ul>
+      {% for post in posts %}
+      <li>id: {{ post.id }}</li>
+      <li>x: {{ post.x }}</li>
+      <li>y: {{ post.y }}</li>
+      <li>z: {{ post.z }}</li>
+      <li>r: {{ post.r }}</li>
+      <br /><br />
+      {% endfor %}
+    </ul>
+  </body>
+</html>
